@@ -1,4 +1,4 @@
-import {calculateDate} from "../mymodule/index.mjs";
+import {calculateDate} from "calculating-date";
 
 // day different = [{ dayDiff: 2 }]
 console.log(calculateDate("2022-04-15", "2022-04-17"));
