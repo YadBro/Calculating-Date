@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "calculating-date",
+  "version": "1.0.3",
+  "description": "This is for calculate date from startDate and endDate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yadi Apriyadi",
+  "license": "MIT",
+  "dependencies": {
+    "calculating-date": "^1.0.1",
+    "moment": "^2.29.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YadBro/Calculating-Date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YadBro/Calculating-Date/issues"
+  },
+  "homepage": "https://github.com/YadBro/Calculating-Date#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
+}
