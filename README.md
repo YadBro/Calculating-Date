@@ -63,6 +63,21 @@ console.log(calculateDate("2022-04-15", "2022-06-17"));
 console.log(calculateDate("2022-04-15", "2023-06-17"));
 ```
 
+(test.js)
+
+```javascript
+const calculating_date = require("calculating-date");
+
+// day different = [{ dayDiff: 2 }]
+console.log(calculateDate("2022-04-15", "2022-04-17"));
+
+// day, month different = [{ dayDiff: 3, monthDiff: 2 }]
+console.log(calculateDate("2022-04-15", "2022-06-17"));
+
+// day, month, year different = [{ dayDiff: 8, monthDiff: 2, yearDiff: 1 }]
+console.log(calculateDate("2022-04-15", "2023-06-17"));
+```
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

@@ -1,16 +1,16 @@
 {
   "type": "module",
   "name": "calculating-date",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "This is for calculate date from startDate and endDate",
-  "main": "index.js",
+  "main": "mymodule.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yadi Apriyadi",
   "license": "MIT",
   "dependencies": {
-    "calculating-date": "^1.0.1",
+    "calculating-date": "^1.0.6",
     "moment": "^2.29.3"
   },
   "repository": {
@@ -24,5 +24,16 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {}
+  "keywords": [
+    "javascript",
+    "date",
+    "calculate",
+    "moment",
+    "nodejs",
+    "calculating-date",
+    "calculating-date-module",
+    "distances",
+    "distance",
+    "calculate-date"
+  ]
 }

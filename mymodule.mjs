@@ -15,7 +15,6 @@ export function calculateDate(startDate, endDate){
     let yearDiff = date2.diff(date1, "year");
     const daysInMonth = new Date(moment().month() + 1,moment().year(), 0).getDate();
     const yearCount = 12;
-    console.log(yearDiff);
     if(dayDiff > daysInMonth){
         if(yearDiff > 0){
             dayDiff -= (monthDiff * daysInMonth); // 1315(hasil perbedaan hari) - 1290(hasil perbedaan bulan di kali ) = 25 day
