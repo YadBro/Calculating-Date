@@ -10,7 +10,8 @@ npm install calculating-date --save
 
 # Example or Usage
 
-``
+`
+
 import {calculateDate} from "calculating-date";
 
 // day different = [{ dayDiff: 2 }]
@@ -22,6 +23,9 @@ console.log(calculateDate("2022-04-15", "2022-06-17"));
 // day, month, year different = [{ dayDiff: 8, monthDiff: 2, yearDiff: 1 }]
 console.log(calculateDate("2022-04-15", "2023-06-17"));
 
+`
+
+`
 Other example =
 
 a. index.html
@@ -43,4 +47,4 @@ const endDate = document.querySelector("input[name=endDate]");
 
 const distance = calculateDate.calculateDate(startDate.value, endDate.value);
 console.log(distance);
-``
+`
