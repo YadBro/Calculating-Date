@@ -19,20 +19,20 @@ export function calculateDate(startDate, endDate){
         if(yearDiff > 0){
             dayDiff -= (monthDiff * daysInMonth); // 1315(hasil perbedaan hari) - 1290(hasil perbedaan bulan di kali ) = 25 day
             monthDiff -= (yearCount * yearDiff);
-            const DMY = [{dayDiff,monthDiff,yearDiff}];
+            const DMY = [{dayDiff: `${dayDiff} Day`,monthDiff: `${monthDiff} Month`,yearDiff: `${yearDiff} Year`}];
             return DMY;
         }else if(monthDiff > yearCount){
             // Cek apakah bulannya melebihi dari 12 bulan atau 1 tahun.
             dayDiff -= (monthDiff * daysInMonth); // 1315(hasil perbedaan hari) - 1290(hasil perbedaan bulan di kali ) = 25 day
             monthDiff -= (yearCount * yearDiff); // 43 - 36 = 7 month
-            const DM = [{dayDiff,monthDiff}];
+            const DM = [{dayDiff: `${dayDiff} Day`,monthDiff: `${monthDiff} Month`}];
             return DM;
         }
         dayDiff -= (monthDiff * daysInMonth);
         return [{dayDiff, monthDiff}];
     }else{
         dayDiff -= (monthDiff * daysInMonth);
-        return [{dayDiff}];
+        return [{dayDiff: `${dayDiff} Day`}];
     }
 }
 
