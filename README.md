@@ -7,9 +7,7 @@ This is a package module javascript for calculate the distance between two point
 Use npm, make sure your npm is up to date.
 
 ```
-
 npm install calculating-date
-
 ```
 
 ## Usage
@@ -19,7 +17,7 @@ npm install calculating-date
 ```javascript
 import calculating_date from "calculating-date";
 
-const distance = calculating_date.calculateDate(startDate, endDate);
+const distance = calculating_date.calculateDate(startDate, endDate, true);
 ```
 
 ## Example

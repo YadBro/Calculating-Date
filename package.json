@@ -1,17 +1,20 @@
 {
   "type": "module",
   "name": "calculating-date",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "This is for calculate date from startDate and endDate",
   "main": "mymodule.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": " \"Error: no test specified\" && exit 0"
   },
   "author": "Yadi Apriyadi",
   "license": "MIT",
   "dependencies": {
     "calculating-date": "^1.0.8",
     "moment": "^2.29.3"
+  },
+  "publishConfig": {
+    "@YadBro:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
