@@ -10,7 +10,6 @@ import moment from "moment";
 export function calculateDate(startDate, endDate, wDetails = true){
     const date1 = moment(startDate);
     const date2 = moment(endDate);
-
     let dayDiff = date2.diff(date1, "days"); // perbedaan hari
     let monthDiff = date2.diff(date1, "month"); // perbedaan bulan
     let yearDiff = date2.diff(date1, "year");
