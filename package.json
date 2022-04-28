@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "calculating-date",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "This is for calculate date from startDate and endDate",
   "main": "mymodule.mjs",
   "scripts": {
@@ -12,9 +12,6 @@
   "dependencies": {
     "calculating-date": "^1.0.8",
     "moment": "^2.29.3"
-  },
-  "publishConfig": {
-    "@YadBro:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
