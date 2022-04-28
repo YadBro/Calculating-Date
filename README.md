@@ -17,7 +17,7 @@ npm install calculating-date --save
 ```javascript
 import calculating_date from "calculating-date";
 
-const distance = calculating_date.calculateDate(startDate, endDate);
+const distance = calculating_date.calculateDate(startDate, endDate, true);
 ```
 
 ## Example
