@@ -7,12 +7,14 @@ This is a package module javascript for calculate the distance between two point
 Use npm, make sure your npm is up to date.
 
 ```
+
 npm install calculating-date
+
 ```
 
 ## Usage
 
-(date, date) type parameter
+(date, date, details) type parameter
 
 ```javascript
 import calculating_date from "calculating-date";
@@ -53,13 +55,13 @@ console.log(distance);
 ```javascript
 import { calculateDate } from "calculating-date";
 
-// day different = [{ dayDiff: 2 }]
+// day different = [{ dayDiff: 2 Day }]
 console.log(calculateDate("2022-04-15", "2022-04-17"));
 
-// day, month different = [{ dayDiff: 3, monthDiff: 2 }]
+// day, month different = [{ dayDiff: 3 Day, monthDiff: 2 Month }]
 console.log(calculateDate("2022-04-15", "2022-06-17"));
 
-// day, month, year different = [{ dayDiff: 8, monthDiff: 2, yearDiff: 1 }]
+// day, month, year different = [{ dayDiff: 8 Day, monthDiff: 2 Month, yearDiff: 1 Year }]
 console.log(calculateDate("2022-04-15", "2023-06-17"));
 ```
 
@@ -68,16 +70,22 @@ console.log(calculateDate("2022-04-15", "2023-06-17"));
 ```javascript
 const calculating_date = require("calculating-date");
 
-// day different = [{ dayDiff: 2 }]
+// day different = [{ dayDiff: 2 Day }]
 console.log(calculateDate("2022-04-15", "2022-04-17"));
 
-// day, month different = [{ dayDiff: 3, monthDiff: 2 }]
+// day, month different = [{ dayDiff: 3 Day, monthDiff: 2 Month }]
 console.log(calculateDate("2022-04-15", "2022-06-17"));
 
-// day, month, year different = [{ dayDiff: 8, monthDiff: 2, yearDiff: 1 }]
+// day, month, year different = [{ dayDiff: 8 Day, monthDiff: 2 Month, yearDiff: 1 Year }]
 console.log(calculateDate("2022-04-15", "2023-06-17"));
 ```
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Copyright © 2022 Yadi Apriyadi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
